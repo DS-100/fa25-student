@@ -1,0 +1,168 @@
+Institution,Type,Overall Score (0-100),Peer Assessment Score (1-5),Graduation and retention rank,Predicted 6yr graduation rate,Actual 6yr graduation rate,Pell gradrate,Social Mobility Rank,Percent of classes under 20,Percent of classes of 50 or more students,Student Excellence rank,First year students in top 10% of high school class,Acceptance rate,Financial resources rank,Average alumni giving rate
+Williams College (MA),private,100,4.7,1,95%,96%,96%,98.0,84%,1%,1,95%,15%,2.0,47%
+Amherst College (MA),private,98,4.6,2,92%,95%,93%,38.0,80%,2%,5,85%,12%,5.0,42%
+Swarthmore College (PA),private,94,4.6,2,92%,97%,98%,135.0,76%,1%,3,93%,9%,6.0,31%
+Pomona College (CA),private,93,4.5,6,92%,94%,91%,80.0,78%,0.20%,3,90%,9%,8.0,23%
+Wellesley College (MA),private,92,4.5,14,92%,94%,95%,98.0,71%,0.20%,8,85%,20%,8.0,40%
+Bowdoin College (ME),private,91,4.5,2,93%,95%,96%,147.0,78%,1%,10,84%,9%,14.0,42%
+United States Naval Academy (MD),public,91,4.3,10,91%,90%,,,80%,1%,27,55%,9%,3.0,16%
+Claremont McKenna College (CA),private,90,4.3,14,92%,92%,91%,183.0,82%,0%,22,73%,13%,14.0,33%
+Carleton College (MN),private,89,4.3,6,90%,93%,84%,180.0,66%,0%,16,70%,21%,33.0,41%
+Middlebury College (VT),private,89,4.3,6,93%,94%,88%,147.0,64%,3%,10,80%,22%,7.0,33%
+United States Military Academy (NY),public,88,4.3,32,88%,85%,,,96%,0%,44,43%,9%,12.0,38%
+Washington and Lee University (VA),private,88,4.0,2,93%,93%,96%,193.0,78%,0%,9,80%,24%,30.0,38%
+Davidson College (NC),private,87,4.3,14,90%,93%,94%,135.0,72%,0.20%,14,76%,20%,30.0,39%
+Grinnell College (IA),private,87,4.3,32,89%,87%,88%,47.0,65%,0%,14,72%,19%,19.0,27%
+Hamilton College (NY),private,87,4.0,10,91%,91%,90%,122.0,76%,0.40%,5,86%,18%,29.0,37%
+Haverford College (PA),private,86,4.2,10,94%,93%,92%,127.0,77%,1%,2,94%,18%,26.0,32%
+Barnard College (NY),private,84,4.1,10,90%,90%,89%,67.0,74%,8%,5,90%,14%,36.0,21%
+Colby College (ME),private,84,4.1,23,91%,90%,98%,193.0,68%,2%,12,74%,10%,25.0,34%
+Colgate University (NY),private,84,4.1,18,90%,91%,91%,190.0,67%,2%,31,65%,27%,30.0,32%
+Smith College (MA),private,84,4.3,32,88%,87%,85%,127.0,68%,3%,16,72%,37%,19.0,26%
+Wesleyan University (CT),private,84,4.1,18,85%,91%,89%,122.0,74%,3%,18,67%,21%,42.0,24%
+United States Air Force Academy (CO),public,83,4.2,40,91%,87%,,,79%,0.30%,31,55%,13%,3.0,14%
+University of Richmond (VA),private,83,4.0,25,88%,88%,91%,127.0,73%,0%,31,50%,31%,19.0,22%
+Vassar College (NY),private,83,4.2,18,90%,88%,86%,32.0,68%,0.30%,12,73%,25%,17.0,22%
+Bates College (ME),private,82,4.1,18,90%,92%,98%,183.0,65%,0.40%,31,60%,14%,48.0,34%
+Colorado College,private,81,4.0,29,91%,88%,91%,183.0,75%,0%,19,73%,14%,19.0,18%
+Macalester College (MN),private,80,4.0,18,87%,93%,96%,106.0,69%,0.40%,20,66%,39%,48.0,29%
+Harvey Mudd College (CA),private,79,4.4,6,94%,93%,84%,183.0,63%,6%,48,,18%,24.0,17%
+Soka University of America (CA),private,78,2.8,23,85%,87%,79%,61.0,96%,0%,51,60%,52%,1.0,17%
+Berea College (KY),private,77,3.5,121,52%,67%,66%,6.0,83%,0.10%,109,25%,33%,17.0,14%
+Bryn Mawr College (PA),private,77,4.1,42,90%,85%,88%,158.0,75%,3%,22,66%,38%,33.0,29%
+Kenyon College (OH),private,77,3.9,25,90%,89%,87%,206.0,79%,0%,38,55%,37%,37.0,29%
+Mount Holyoke College (MA),private,77,3.9,47,84%,84%,92%,122.0,76%,1%,35,49%,52%,37.0,30%
+Scripps College (CA),private,77,3.9,29,93%,88%,92%,209.0,78%,0%,22,75%,35%,33.0,17%
+College of the Holy Cross (MA),private,76,3.7,14,85%,93%,90%,135.0,52%,1%,38,61%,38%,56.0,41%
+Pitzer College (CA),private,76,3.8,42,86%,84%,91%,142.0,81%,0%,25,51%,17%,37.0,19%
+Oberlin College and Conservatory (OH),private,75,3.9,40,91%,86%,86%,209.0,82%,1%,35,51%,35%,42.0,22%
+Bucknell University (PA),private,74,3.9,25,91%,88%,87%,201.0,49%,2%,41,54%,38%,37.0,23%
+Lafayette College (PA),private,74,3.6,25,89%,90%,85%,206.0,68%,1%,27,61%,36%,42.0,26%
+Skidmore College (NY),private,74,3.7,32,83%,86%,94%,150.0,72%,1%,51,33%,32%,50.0,19%
+Whitman College (WA),private,74,3.4,37,87%,86%,80%,203.0,76%,0%,41,49%,54%,50.0,27%
+Denison University (OH),private,72,3.6,47,78%,80%,78%,115.0,72%,0%,20,71%,28%,62.0,16%
+Franklin & Marshall College (PA),private,72,3.6,42,85%,85%,83%,98.0,63%,1%,35,61%,37%,50.0,18%
+Occidental College (CA),private,72,3.7,42,83%,84%,81%,80.0,69%,0.20%,25,59%,41%,50.0,17%
+Thomas Aquinas College (CA),private,72,2.9,42,73%,84%,83%,8.0,100%,0%,74,20%,86%,67.0,37%
+DePauw University (IN),private,71,3.4,47,81%,87%,87%,80.0,81%,0%,66,43%,68%,64.0,19%
+Furman University (SC),private,71,3.6,61,82%,81%,77%,201.0,81%,0%,41,44%,65%,50.0,21%
+Hillsdale College (MI),private,71,2.6,32,85%,88%,,,77%,1%,56,,36%,16.0,14%
+Trinity College (CT),private,71,3.6,54,84%,82%,86%,193.0,71%,0.40%,71,51%,36%,26.0,25%
+Connecticut College,private,70,3.6,47,85%,82%,87%,142.0,74%,2%,59,54%,38%,56.0,26%
+Dickinson College (PA),private,70,3.5,54,84%,84%,83%,190.0,79%,0%,46,49%,52%,67.0,23%
+Union College (NY),private,70,3.4,37,90%,86%,90%,158.0,69%,0%,27,58%,41%,60.0,21%
+The University of the South (TN),private,70,3.6,63,81%,80%,79%,115.0,59%,0%,69,31%,56%,56.0,30%
+Gettysburg College (PA),private,68,3.5,47,88%,85%,87%,183.0,70%,1%,27,60%,48%,60.0,20%
+Rhodes College (TN),private,68,3.6,54,81%,82%,84%,193.0,76%,0%,38,53%,51%,101.0,24%
+Spelman College (GA),private,68,3.8,80,63%,75%,68%,4.0,52%,1%,122,30%,53%,83.0,30%
+St. Lawrence University (NY),private,67,3.3,54,78%,80%,72%,150.0,67%,1%,56,40%,47%,72.0,19%
+Wabash College (IN),private,67,3.3,84,74%,75%,60%,54.0,74%,1%,84,30%,63%,42.0,39%
+Centre College (KY),private,66,3.4,54,80%,83%,76%,147.0,59%,0.30%,46,46%,72%,94.0,37%
+Principia College (IL),private,66,2.2,63,73%,75%,,,100%,0%,139,17%,93%,8.0,21%
+Wheaton College (IL),private,66,3.2,29,80%,88%,89%,88.0,68%,1%,44,49%,87%,72.0,17%
+Bard College (NY),private,65,3.5,88,88%,74%,73%,98.0,87%,1%,90,34%,59%,26.0,15%
+Lawrence University (WI),private,65,3.2,68,77%,79%,71%,167.0,80%,1%,50,40%,69%,67.0,28%
+Reed College (OR),private,65,3.7,63,89%,79%,,80.0,,,101,,39%,37.0,
+St. Olaf College (MN),private,65,3.6,37,81%,85%,84%,127.0,50%,3%,51,39%,51%,108.0,17%
+Agnes Scott College (GA),private,64,3.4,109,73%,72%,69%,6.0,58%,0%,90,33%,68%,64.0,25%
+Muhlenberg College (PA),private,63,3.1,47,79%,82%,99%,167.0,83%,0.30%,59,40%,62%,89.0,16%
+St. John's College (MD),private,63,3.4,109,80%,66%,64%,135.0,98%,0%,71,25%,61%,67.0,21%
+Virginia Military Institute,public,63,3.1,68,73%,85%,81%,183.0,83%,0%,160,12%,60%,101.0,25%
+Wofford College (SC),private,63,3.2,54,77%,80%,79%,73.0,58%,0%,64,34%,53%,85.0,19%
+College of Wooster (OH),private,62,3.3,80,79%,74%,66%,158.0,74%,1%,51,46%,65%,78.0,16%
+Kalamazoo College (MI),private,62,3.3,54,75%,79%,75%,88.0,54%,0.40%,59,42%,74%,101.0,23%
+Sarah Lawrence College (NY),private,62,3.4,90,82%,73%,78%,150.0,88%,0.30%,56,29%,55%,72.0,17%
+Willamette University (OR),private,62,3.2,96,75%,74%,70%,88.0,77%,0%,59,46%,80%,94.0,11%
+Beloit College (WI),private,61,3.2,74,74%,78%,76%,57.0,76%,0.40%,101,28%,58%,113.0,12%
+Hobart & William Smith Colleges (NY),private,61,3.3,74,78%,77%,80%,167.0,64%,0%,101,36%,62%,72.0,19%
+Juniata College (PA),private,61,2.9,68,70%,80%,,27.0,73%,1%,84,30%,71%,108.0,23%
+St. John's College (NM),private,61,3.3,145,75%,67%,80%,190.0,100%,0%,48,47%,69%,42.0,18%
+Bennington College (VT),private,60,2.9,109,80%,71%,63%,127.0,89%,0.40%,84,39%,60%,50.0,17%
+Gustavus Adolphus College (MN),private,60,3.3,68,72%,78%,82%,47.0,68%,0.20%,66,29%,71%,127.0,18%
+Knox College (IL),private,60,3.1,90,67%,71%,60%,22.0,75%,1%,95,24%,71%,127.0,27%
+Lake Forest College (IL),private,59,3.0,90,65%,75%,75%,3.0,56%,0.30%,77,41%,58%,113.0,19%
+Lewis & Clark College (OR),private,59,3.4,84,76%,74%,66%,167.0,61%,1%,59,29%,81%,101.0,14%
+New College of Florida,public,59,3.0,141,74%,63%,60%,67.0,88%,0%,74,25%,70%,42.0,12%
+Allegheny College (PA),private,58,3.1,90,72%,73%,63%,106.0,81%,0.20%,77,31%,73%,101.0,19%
+University of Puget Sound (WA),private,58,3.3,84,78%,77%,75%,203.0,70%,0.20%,74,28%,86%,94.0,10%
+Ursinus College (PA),private,58,3.0,74,72%,74%,70%,127.0,68%,0.30%,84,24%,80%,83.0,15%
+Wheaton College (MA),private,58,3.4,78,77%,78%,75%,115.0,58%,2%,71,31%,77%,85.0,16%
+Cornell College (IA),private,57,3.2,117,68%,67%,57%,73.0,77%,0%,95,20%,82%,113.0,14%
+Illinois Wesleyan University,private,57,3.0,68,76%,82%,76%,92.0,64%,1%,90,26%,57%,94.0,14%
+St. Mary's College of Maryland,public,57,3.0,80,72%,72%,62%,167.0,67%,0.30%,117,22%,79%,89.0,9%
+Augustana College (IL),private,56,3.0,88,68%,77%,69%,92.0,66%,0%,95,29%,57%,179.0,21%
+College of St. Benedict (MN),private,56,3.1,61,71%,85%,80%,92.0,45%,0%,84,30%,84%,140.0,14%
+College of the Atlantic (ME),private,56,2.8,141,73%,66%,61%,65.0,97%,0%,64,33%,76%,113.0,26%
+Earlham College (IN),private,56,3.1,130,76%,65%,57%,135.0,82%,2%,80,31%,59%,56.0,25%
+Transylvania University (KY),private,56,2.9,96,77%,74%,71%,142.0,77%,0%,69,30%,92%,113.0,26%
+Washington and Jefferson Col. (PA),private,56,3.0,100,69%,68%,61%,122.0,81%,0%,122,25%,90%,89.0,13%
+Hampden-Sydney College (VA),private,55,3.0,121,70%,71%,57%,206.0,81%,0%,139,15%,47%,78.0,21%
+Hanover College (IN),private,55,2.8,109,66%,72%,60%,80.0,74%,0.40%,105,25%,69%,153.0,18%
+Hendrix College (AR),private,55,3.2,105,74%,61%,41%,211.0,71%,0%,51,37%,71%,94.0,18%
+Ohio Wesleyan University,private,55,3.1,127,69%,67%,54%,150.0,70%,1%,77,28%,68%,85.0,18%
+Southwestern University (TX),private,55,3.1,96,71%,73%,75%,92.0,52%,0.30%,90,27%,49%,113.0,23%
+Stonehill College (MA),private,55,2.8,63,73%,82%,79%,135.0,64%,0.40%,109,20%,69%,127.0,12%
+Washington College (MD),private,55,2.8,100,76%,71%,67%,164.0,79%,0%,105,29%,80%,72.0,15%
+Grove City College (PA),private,54,2.5,47,71%,83%,,,,,139,,79%,182.0,
+Hollins University (VA),private,54,2.8,148,63%,62%,55%,16.0,91%,0%,156,20%,81%,77.0,23%
+Luther College (IA),private,54,2.9,80,74%,77%,69%,167.0,63%,1%,80,30%,64%,140.0,23%
+Saint Anselm College (NH),private,54,2.7,68,75%,78%,,167.0,75%,2%,84,28%,75%,127.0,17%
+Saint Mary's College (IN),private,54,2.9,74,72%,81%,76%,73.0,40%,7%,109,26%,82%,113.0,29%
+St. John's University (MN),private,54,3.1,84,70%,74%,68%,150.0,45%,0%,109,14%,81%,101.0,21%
+Austin College (TX),private,53,3.0,114,66%,71%,69%,65.0,58%,0.40%,95,26%,49%,140.0,12%
+Hope College (MI),private,53,3.0,63,72%,76%,63%,158.0,57%,2%,80,35%,78%,153.0,15%
+Randolph-Macon College (VA),private,53,3.0,117,67%,66%,60%,127.0,63%,0%,134,21%,71%,140.0,29%
+Millsaps College (MS),private,52,3.0,130,75%,68%,54%,167.0,90%,0.30%,156,,70%,94.0,14%
+Westmont College (CA),private,52,2.7,90,75%,72%,72%,115.0,68%,1%,66,36%,70%,78.0,10%
+Whittier College (CA),private,52,3.1,127,63%,63%,64%,18.0,51%,1%,134,20%,72%,113.0,16%
+Drew University (NJ),private,51,2.9,121,70%,69%,65%,32.0,68%,0.30%,139,26%,73%,89.0,12%
+Elizabethtown College (PA),private,51,2.6,90,69%,72%,65%,158.0,66%,1%,109,28%,86%,89.0,13%
+Goucher College (MD),private,51,3.1,130,71%,66%,63%,115.0,76%,0%,139,21%,79%,127.0,12%
+Linfield University (OR),private,51,2.6,100,67%,75%,71%,67.0,78%,0.30%,147,,80%,127.0,11%
+St. Norbert College (WI),private,51,2.8,100,70%,72%,70%,40.0,50%,0%,95,27%,84%,151.0,15%
+Susquehanna University (PA),private,51,2.9,96,68%,74%,70%,80.0,57%,0.20%,126,23%,87%,140.0,13%
+Westminster College (PA),private,51,2.6,114,62%,71%,67%,10.0,68%,0%,139,22%,95%,173.0,14%
+Houghton College (NY),private,50,2.6,105,63%,68%,57%,37.0,82%,0.30%,126,18%,93%,161.0,16%
+Lycoming College (PA),private,50,2.6,136,56%,62%,58%,32.0,78%,0.40%,147,23%,65%,136.0,17%
+Monmouth College (IL),private,49,2.7,155,57%,58%,54%,17.0,84%,0%,154,8%,69%,113.0,16%
+Saint Michael's College (VT),private,49,2.6,78,73%,75%,68%,167.0,57%,1%,95,26%,88%,136.0,18%
+Albion College (MI),private,48,2.8,141,63%,68%,59%,92.0,71%,0%,173,17%,75%,101.0,10%
+Birmingham-Southern College (AL),private,48,2.7,121,70%,71%,53%,212.0,75%,0%,109,18%,60%,153.0,14%
+Eckerd College (FL),private,48,2.9,121,71%,64%,69%,167.0,59%,0%,116,,69%,113.0,
+Massachusetts Col. of Liberal Arts,public,48,2.6,165,53%,53%,50%,21.0,93%,0%,173,22%,88%,113.0,5%
+Morehouse College (GA),private,48,3.6,157,60%,56%,48%,18.0,52%,2%,187,,74%,78.0,14%
+Presbyterian College (SC),private,48,2.7,136,67%,61%,55%,61.0,65%,0.30%,134,25%,71%,136.0,18%
+Ripon College (WI),private,48,2.7,130,64%,67%,56%,57.0,58%,3%,156,12%,74%,125.0,28%
+Roanoke College (VA),private,48,2.9,117,66%,70%,65%,164.0,55%,0%,126,16%,78%,161.0,15%
+Central College (IA),private,47,2.6,117,67%,68%,63%,106.0,66%,0%,139,23%,64%,127.0,9%
+Coe College (IA),private,47,2.9,130,65%,61%,49%,106.0,71%,0%,117,21%,81%,182.0,14%
+College of Idaho,private,47,2.7,127,63%,64%,61%,15.0,57%,2%,134,,48%,173.0,18%
+Meredith College (NC),private,47,2.6,136,62%,64%,56%,73.0,71%,0.30%,156,17%,72%,153.0,19%
+Salem College (NC),private,47,2.2,161,60%,67%,69%,4.0,94%,0%,169,12%,85%,125.0,16%
+Concordia College at Moorhead (MN),private,46,2.7,105,72%,68%,58%,150.0,53%,0.40%,122,20%,58%,140.0,13%
+Hampshire College (MA),private,46,2.7,145,76%,66%,59%,115.0,87%,0%,212,,59%,64.0,15%
+Moravian College (PA),private,46,2.6,121,59%,69%,58%,98.0,57%,2%,169,19%,79%,140.0,15%
+Randolph College (VA),private,46,2.6,167,63%,56%,40%,203.0,92%,0%,176,23%,90%,67.0,18%
+University of Minnesota Morris,public,46,2.6,148,63%,60%,54%,73.0,74%,1%,90,26%,65%,182.0,9%
+Covenant College (GA),private,45,2.3,109,66%,68%,65%,61.0,64%,0%,80,36%,98%,187.0,8%
+Fisk University (TN),private,45,3.0,179,49%,50%,50%,13.0,75%,0%,131,32%,66%,140.0,34%
+Franklin College (IN),private,45,2.6,145,58%,63%,53%,57.0,69%,0%,176,12%,76%,161.0,17%
+Hartwick College (NY),private,45,2.7,157,59%,58%,61%,22.0,76%,0.30%,182,,93%,108.0,7%
+Illinois College,private,45,2.5,136,59%,68%,55%,22.0,54%,0%,166,18%,76%,153.0,17%
+Saint Vincent College (PA),private,45,2.2,100,62%,73%,67%,73.0,56%,0.20%,151,20%,72%,165.0,12%
+Simpson College (IA),private,45,2.5,114,64%,71%,60%,80.0,66%,1%,126,18%,87%,182.0,9%
+U. of North Carolina Asheville,public,45,3.1,151,62%,62%,60%,54.0,55%,1%,117,15%,79%,204.0,4%
+Wells College (NY),private,45,2.6,170,61%,54%,,12.0,84%,0%,199,19%,83%,94.0,
+Purchase College--SUNY,public,44,2.8,141,61%,61%,58%,40.0,67%,4%,147,,74%,153.0,2%
+Wittenberg University (OH),private,44,2.7,148,62%,63%,51%,98.0,64%,1%,151,17%,97%,165.0,16%
+Wesleyan College (GA),private,43,2.9,174,51%,51%,42%,92.0,74%,0%,185,,60%,173.0,19%
+Aquinas College (MI),private,42,2.4,151,60%,65%,59%,40.0,78%,1%,151,,71%,187.0,8%
+Emory and Henry College (VA),private,42,2.6,163,53%,54%,42%,115.0,68%,0%,176,16%,80%,140.0,17%
+Gordon College (MA),private,42,2.5,105,71%,72%,67%,158.0,66%,4%,122,24%,68%,165.0,8%
+University of Puerto Rico--Ponce,public,42,2.4,170,27%,50%,,193.0,,,212,,73%,222.0,
+University of Virginia--Wise,public,42,2.5,185,49%,46%,,8.0,75%,0%,169,20%,82%,165.0,5%
+Westminster College (MO),private,42,2.4,153,63%,60%,44%,122.0,78%,0%,139,19%,97%,161.0,
+Centenary College,private,41,2.4,163,69%,56%,,106.0,72%,1%,101,25%,60%,85.0,9%
+Oglethorpe University (GA),private,40,2.9,174,61%,50%,42%,80.0,73%,0%,105,23%,67%,194.0,6%
+Sweet Briar College (VA),private,40,2.4,191,71%,32%,33%,67.0,87%,0%,161,,76%,19.0,33%
+Wartburg College (IA),private,40,2.6,130,69%,68%,61%,150.0,49%,1%,161,21%,72%,173.0,19%
