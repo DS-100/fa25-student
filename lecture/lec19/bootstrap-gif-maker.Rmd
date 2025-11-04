@@ -1,0 +1,219 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+
+theme_set(theme_bw())
+```
+
+```{r}
+set.seed(1)
+
+N = 30
+college_degree = rbinom(N, 1, 0.5)
+lifetime_earnings = 1000000 + 500000*college_degree + rnorm(N, mean=0, sd=300000)
+
+colors = c('black', 'red', 'blue',  'orange', 'purple', 'green')
+
+base_plot = ggplot() +
+  geom_point(
+    aes(x = college_degree, y = lifetime_earnings),
+    alpha = 0.3
+  ) +
+  geom_smooth(
+    aes(x = college_degree, y = lifetime_earnings),
+    method = 'lm',
+    se = FALSE,
+    color = 'black',
+    # lwd = 0.5
+  ) +
+  scale_x_continuous(
+    name = 'Has college degree?',
+    breaks=c(0,1),
+    limits=c(0, 1)
+  ) +
+  scale_y_continuous(
+    name = 'Earnings',
+    labels=scales::dollar_format(),
+    limits=c(500000, 2000000),
+  ) +
+  theme(
+    # remove gridlines
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    
+    # rotate y axis title, and move to center
+    axis.title.y = element_text(angle = 0, vjust = 0.5),
+  ) +
+  ggtitle('SLR with original data')
+
+print(base_plot)
+
+ggsave(
+  filename = 'gifs/01.png',
+  plot = base_plot,
+  width = 6,
+  height = 4
+)
+```
+
+```{r}
+set.seed(1)
+
+bootstrap_plot = base_plot
+bootstrap_plot$layers[[1]] = NULL
+
+bootstrap_plot = bootstrap_plot
+
+for (i in 2:length(colors)) {
+  
+  # generate bootstrap sample
+  bootstrap_idx = sample(1:length(lifetime_earnings), size=length(lifetime_earnings), replace = TRUE)
+  
+  bootstrap_plot = bootstrap_plot +
+    geom_point(
+      aes(x = !! college_degree[bootstrap_idx], 
+          y = !! lifetime_earnings[bootstrap_idx]), 
+      color = colors[i],
+      alpha = 0.3
+    ) +
+    ggtitle('Generate a bootstrap sample')
+  
+  # print(bootstrap_plot)
+  ggsave(
+    filename = paste0('gifs/', str_pad(3*(i-1) - 1, width=2, pad=0), '.png'),
+    plot = bootstrap_plot,
+    width = 6,
+    height = 4
+  )
+  
+  bootstrap_plot = bootstrap_plot +
+    geom_smooth(
+      aes(x = !! college_degree[bootstrap_idx], 
+          y = !! lifetime_earnings[bootstrap_idx]), 
+      method = 'lm', 
+      se = FALSE, 
+      color = colors[i],
+      # lwd = 0.5
+    ) +
+    ggtitle('Fit a bootstrapped SLR model')
+  
+  # print(bootstrap_plot)
+  ggsave(
+    filename = paste0('gifs/', str_pad(3*(i-1), width=2, pad=0), '.png'),
+    plot = bootstrap_plot,
+    width = 6,
+    height = 4
+)
+  
+  point_layer_idx = length(bootstrap_plot$layers) - 1
+  bootstrap_plot$layers[point_layer_idx] = NULL
+  
+  # print(bootstrap_plot)
+  ggsave(
+    filename = paste0('gifs/', str_pad(3*(i-1) + 1, width=2, pad=0), '.png'),
+    plot = bootstrap_plot,
+    width = 6,
+    height = 4
+)
+}
+
+```
+
+```{r}
+# plot the function with ggplot
+
+N = 120
+SIGMA=3
+x = seq(MIN, MAX, length.out=N)
+
+for (c in c('blue', 'red', 'purple', 'orange')) {
+  
+  e = rnorm(N, 0, SIGMA)
+  y = f(x) + e
+  
+  df = tibble(x = x, y = y)
+  
+  sample_points_plot = base_plot +
+    geom_point(
+      data = df, 
+      aes(x = x, y = y), 
+      color = c,
+      size = 0.5
+    )
+  
+  print(sample_points_plot)
+  
+  ggsave(
+    filename = paste0('img/sample_points_', c, '.png'),
+    plot = sample_points_plot,
+    width = 6,
+    height = 4
+  )
+  
+  linear_plot = sample_points_plot +
+    geom_smooth(
+      data = df, 
+      aes(x = x, y = y), 
+      method = 'lm', 
+      se = FALSE, 
+      color = c,
+      lwd = 0.5
+    )
+  
+  print(linear_plot)
+  
+  ggsave(
+    filename = paste0('img/fhat_linear_', c, '.png'),
+    plot = linear_plot,
+    width = 6,
+    height = 4
+  )
+  
+  quadratic_plot = sample_points_plot +
+    geom_smooth(
+      data = df, 
+      aes(x = x, y = y), 
+      method = 'lm', 
+      se = FALSE, 
+      color = c,
+      formula = y ~ poly(x, 2),
+      lwd = 0.5
+    )
+  
+  print(quadratic_plot)
+  
+  ggsave(
+    filename = paste0('img/fhat_quadratic_', c, '.png'),
+    plot = quadratic_plot,
+    width = 6,
+    height = 4
+  )
+  
+  degree20_plot = sample_points_plot +
+    geom_smooth(
+      data = df, 
+      aes(x = x, y = y), 
+      method = 'lm', 
+      se = FALSE, 
+      color = c,
+      formula = y ~ poly(x, 20),
+      lwd = 0.5
+    )
+  
+  print(degree20_plot)
+  
+  ggsave(
+    filename = paste0('img/fhat_degree20_', c, '.png'),
+    plot = degree20_plot,
+    width = 6,
+    height = 4
+  )
+}
+
+```
+
