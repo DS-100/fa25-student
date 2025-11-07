@@ -1,0 +1,40 @@
+The database has 4 tables: `Name`, `Role`, `Rating`, and `Title`.
+
+See descriptions of each table's schema below. We have only included descriptions for columns that could be of potential use in this homework.
+    
+**`Name`** – Contains the following information for names of people.
+    
+- nconst (BIGINT) - alphanumeric unique identifier of the name/person
+- primaryName (VARCHAR) - name by which the person is most often credited
+- birthYear (VARCHAR) - in YYYY format
+- deathYear (VARCHAR) - in YYYY format
+- primaryProfession (VARCHAR) – array of the top-3 professions of the person
+
+    
+**`Role`** – Contains the principal cast/crew for titles.
+    
+- tconst (BIGINT) - alphanumeric unique identifier of the title
+- ordering (VARCHAR) - a number to uniquely identify rows for a given tconst
+- nconst (BIGINT) - alphanumeric unique identifier of the name/person
+- category (VARCHAR) - the category of job that person was in
+- characters (VARCHAR) - the name of the character played if applicable, else '\\N'
+    
+**`Rating`** – Contains the IMDb rating and vote information for titles.
+    
+- tconst (BIGINT) - alphanumeric unique identifier of the title
+- averageRating (VARCHAR) – weighted average of all the individual user ratings
+- numVotes (VARCHAR) - number of votes (i.e., ratings) the title has received
+    
+**`Title`** - Contains the following information for titles.
+    
+- tconst (BIGINT) - alphanumeric unique identifier of the title
+- titleType (VARCHAR) -  the type/format of the title
+- primaryTitle (VARCHAR) -  the more popular title / the title used by the producers on promotional materials at the point of release
+- isAdult (VARCHAR) - 0: non-adult title; 1: adult title
+- startYear (VARCHAR) - represents the release year of a title.
+- runtimeMinutes (VARCHAR) - primary runtime of the title, in minutes
+- genres (VARCHAR) – array that includes up to three genres associated with the title
+    
+From the above descriptions, we can conclude the following:
+* `Name.nconst` and `Title.tconst` are primary keys of the `Name` and `Title` tables, respectively.
+* `Role.nconst` and `Role.tconst` are **foreign keys** that point to `Name.nconst` and `Title.tconst`, respectively.
